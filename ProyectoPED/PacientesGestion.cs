@@ -102,16 +102,53 @@ namespace ProyectoPED
             {
                 MessageBox.Show("Paciente ingresado exitosamente.");
                 LimpiarCampos(); // Método para limpiar los campos después de la inserción
-               
+                recargarScreen(); // Método para recargar la pantalla
             }
             else
             {
                 MessageBox.Show("Error al guardar al paciente.");
             }
 
-    
+            /**
+            if (id != null)
+            {
+                int result = PacienteFun.ModificarPaciente(paciente);
 
-           
+
+                if (result > 0)
+                {
+                    MessageBox.Show("Paciente Modificado Exitosamente");
+
+                }
+                else
+                {
+                    MessageBox.Show("Error al Modificar al Paciente");
+                }
+
+                recargarScreen();
+            }
+            else
+            {
+                paciente.id = id;
+                int result = PacienteFun.AgregarPaciente(paciente);
+
+
+                if (result > 0)
+                {
+                    MessageBox.Show("Paciente Ingresado Exitosamente");
+
+                }
+                else
+                {
+                    MessageBox.Show("Error al Guardar al Paciente");
+                }
+
+                recargarScreen();
+            }
+
+            **/
+
+            dataGridView1.DataSource = PacienteFun.PacienteRegistro();
         }
 
         private void LimpiarCampos()
@@ -127,6 +164,10 @@ namespace ProyectoPED
             textBox6.Text = string.Empty;
         }
 
+        public void recargarScreen()
+        {
+            dataGridView1.DataSource = PacienteFun.PacienteRegistro();
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -136,7 +177,17 @@ namespace ProyectoPED
             seleccionarAccion.Show();
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            editPaciente editPaciente = new editPaciente();
+            editPaciente.Show();
+        }
 
+        private void PacientesGestion_Load(object sender, EventArgs e)
+        {
+            recargarScreen();
+        }
     }
 }
 

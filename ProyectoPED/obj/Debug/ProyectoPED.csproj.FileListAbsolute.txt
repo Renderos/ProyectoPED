@@ -52,41 +52,23 @@ C:\Users\Alexa\Desktop\ProyectoPED_Version4\ProyectoPED\obj\Debug\ProyectoPED.cs
 C:\Users\Alexa\Desktop\ProyectoPED_Version4\ProyectoPED\obj\Debug\ProyectoPED.csproj.CoreCompileInputs.cache
 C:\Users\Alexa\Desktop\ProyectoPED_Version4\ProyectoPED\obj\Debug\ProyectoPED.exe
 C:\Users\Alexa\Desktop\ProyectoPED_Version4\ProyectoPED\obj\Debug\ProyectoPED.pdb
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\bin\Debug\ProyectoPED.exe.config
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\bin\Debug\ProyectoPED.exe
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\bin\Debug\ProyectoPED.pdb
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.csproj.AssemblyReference.cache
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.agregarCitas.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.agregarDoctores.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.editPaciente.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.Form1.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.FormDoctor.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.FormHistorialMedico.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.GestionarCitas.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.login.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.agregarPacientes.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.PacientesGestion.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.Properties.Resources.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.selectActionAdmin.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.csproj.GenerateResource.cache
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.csproj.CoreCompileInputs.cache
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.exe
-C:\Users\reren\Desktop\Proyectos\PED_C#\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.pdb
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.csproj.AssemblyReference.cache
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.agregarCitas.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.agregarDoctores.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.Form1.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.FormDoctor.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.FormHistorialMedico.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.login.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.agregarPacientes.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.PacientesGestion.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.Properties.Resources.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.selectActionAdmin.resources
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.csproj.GenerateResource.cache
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.csproj.CoreCompileInputs.cache
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.exe
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\obj\Debug\ProyectoPED.pdb
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\bin\Debug\ProyectoPED.exe.config
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\bin\Debug\ProyectoPED.exe
-C:\Users\reren\Desktop\Proyectos\PED_C#\Fase 1\Proyecto_Fase1_Github\ProyectoPED\bin\Debug\ProyectoPED.pdb
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\bin\Debug\ProyectoPED.exe.config
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\bin\Debug\ProyectoPED.exe
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\bin\Debug\ProyectoPED.pdb
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.csproj.AssemblyReference.cache
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.agregarCitas.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.agregarDoctores.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.editPaciente.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.Form1.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.FormDoctor.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.FormHistorialMedico.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.GestionarCitas.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.login.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.agregarPacientes.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.PacientesGestion.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.Properties.Resources.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.selectActionAdmin.resources
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.csproj.GenerateResource.cache
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.csproj.CoreCompileInputs.cache
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.exe
+C:\Users\reren\Downloads\ProyectoPED-main (1)\ProyectoPED-main\ProyectoPED\obj\Debug\ProyectoPED.pdb

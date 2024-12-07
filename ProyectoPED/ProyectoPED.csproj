@@ -59,6 +59,12 @@
       <DependentUpon>agregarDoctores.cs</DependentUpon>
     </Compile>
     <Compile Include="BDD.cs" />
+    <Compile Include="editPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editPaciente.Designer.cs">
+      <DependentUpon>editPaciente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Empleado.cs" />
     <Compile Include="EmpleadoFun.cs" />
     <Compile Include="Form1.cs">
@@ -78,6 +84,12 @@
     </Compile>
     <Compile Include="FormHistorialMedico.Designer.cs">
       <DependentUpon>FormHistorialMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarCitas.Designer.cs">
+      <DependentUpon>GestionarCitas.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -119,6 +131,9 @@
     <EmbeddedResource Include="agregarDoctores.resx">
       <DependentUpon>agregarDoctores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="editPaciente.resx">
+      <DependentUpon>editPaciente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormHistorialMedico.resx">
       <DependentUpon>FormHistorialMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarCitas.resx">
+      <DependentUpon>GestionarCitas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>

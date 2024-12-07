@@ -48,8 +48,31 @@ namespace ProyectoPED
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string descripcion = textBoxDescripcion.Text;
+            string diagnostico = textBoxDiagnostico.Text;
+            string tratamiento = textBoxTratamiento.Text;
 
-            
+            if (string.IsNullOrWhiteSpace(descripcion) || string.IsNullOrWhiteSpace(diagnostico) || string.IsNullOrWhiteSpace(tratamiento))
+            {
+                MessageBox.Show("Todos los campos son obligatorios.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "INSERT INTO HistorialMedico (PacienteID, FechaConsulta, Descripcion, Diagnostico, Tratamiento) VALUES (@PacienteID, @FechaConsulta, @Descripcion, @Diagnostico, @Tratamiento)";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@PacienteID", pacienteId);
+                cmd.Parameters.AddWithValue("@FechaConsulta", DateTime.Now);
+                cmd.Parameters.AddWithValue("@Descripcion", descripcion);
+                cmd.Parameters.AddWithValue("@Diagnostico", diagnostico);
+                cmd.Parameters.AddWithValue("@Tratamiento", tratamiento);
+
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Historial médico actualizado exitosamente.");
+                CargarHistorialMedico();
+            }
         }
     }
 }

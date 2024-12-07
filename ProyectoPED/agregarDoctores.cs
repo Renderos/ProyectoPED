@@ -86,6 +86,7 @@ namespace ProyectoPED
             {
                 MessageBox.Show("Empleado ingresado exitosamente.");
                 LimpiarCampos(); // Método para limpiar los campos después de la inserción
+                recargarScreen(); // Método para recargar la pantalla
             }
             else
             {
@@ -93,7 +94,26 @@ namespace ProyectoPED
             }
         }
 
- 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            {
+                if (dataGridView1.SelectedRows.Count == 1)
+                {
+                    int id = Convert.ToInt32(dataGridView1.CurrentRow.Cells["id"].Value);
+                    int result = EmpleadoFun.EliminarEmpleado(id);
+
+                    if (result > 0)
+                    {
+                        MessageBox.Show("Empleado Eliminado");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar Empleado");
+                    }
+                }
+
+            }
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -123,6 +143,14 @@ namespace ProyectoPED
             comboBox3.SelectedIndex = -1; // Especialidad
         }
 
+        private void agregarDoctores_Load(object sender, EventArgs e)
+        {
+            recargarScreen();
+        }
 
+        public void recargarScreen()
+        {
+            dataGridView1.DataSource = EmpleadoFun.EmpleadoRegistro();
+        }
     }
 }

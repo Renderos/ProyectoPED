@@ -49,25 +49,30 @@ namespace ProyectoPED
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(682, 26);
+            this.button4.Location = new System.Drawing.Point(967, 205);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(179, 77);
             this.button4.TabIndex = 33;
             this.button4.Text = "Gestión Pacientes";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(325, 308);
+            this.button3.Location = new System.Drawing.Point(967, 78);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(152, 31);
+            this.button3.Size = new System.Drawing.Size(179, 77);
             this.button3.TabIndex = 32;
             this.button3.Text = "Regresar al Menú";
             this.button3.UseVisualStyleBackColor = true;
@@ -77,7 +82,6 @@ namespace ProyectoPED
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox1.Controls.Add(this.buttonAgregar);
-            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label5);
@@ -95,7 +99,7 @@ namespace ProyectoPED
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(54, 21);
+            this.groupBox1.Location = new System.Drawing.Point(309, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(606, 371);
             this.groupBox1.TabIndex = 31;
@@ -106,7 +110,7 @@ namespace ProyectoPED
             // 
             this.buttonAgregar.Location = new System.Drawing.Point(183, 308);
             this.buttonAgregar.Name = "buttonAgregar";
-            this.buttonAgregar.Size = new System.Drawing.Size(127, 31);
+            this.buttonAgregar.Size = new System.Drawing.Size(155, 38);
             this.buttonAgregar.TabIndex = 16;
             this.buttonAgregar.Text = "Agregar";
             this.buttonAgregar.UseVisualStyleBackColor = true;
@@ -254,17 +258,41 @@ namespace ProyectoPED
             this.textBox1.Size = new System.Drawing.Size(215, 26);
             this.textBox1.TabIndex = 0;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(72, 398);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(982, 347);
+            this.dataGridView1.TabIndex = 30;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProyectoPED.Properties.Resources.addPatient;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(237, 216);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
             // PacientesGestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 437);
+            this.ClientSize = new System.Drawing.Size(1183, 774);
             this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "PacientesGestion";
             this.Text = "PacientesGestion";
+            this.Load += new System.EventHandler(this.PacientesGestion_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -291,5 +319,7 @@ namespace ProyectoPED
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

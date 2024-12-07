@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|c:\\users\\reren\\downloads\\proyectoped-main (1)\\proyectoped-main\\proyectoped\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|solutionrelative:proyectoped\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|c:\\users\\reren\\downloads\\proyectoped-main (1)\\proyectoped-main\\proyectoped\\bdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|solutionrelative:proyectoped\\bdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|c:\\users\\reren\\downloads\\proyectoped-main (1)\\proyectoped-main\\proyectoped\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|solutionrelative:proyectoped\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|c:\\users\\reren\\downloads\\proyectoped-main (1)\\proyectoped-main\\proyectoped\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0C98E4-9789-4C5D-9F48-60E9A82044AC}|ProyectoPED\\ProyectoPED.csproj|solutionrelative:proyectoped\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\App.config",
+              "RelativeDocumentMoniker": "ProyectoPED\\App.config",
+              "ToolTip": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\App.config",
+              "RelativeToolTip": "ProyectoPED\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-07T14:09:25.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BDD.cs",
+              "DocumentMoniker": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\BDD.cs",
+              "RelativeDocumentMoniker": "ProyectoPED\\BDD.cs",
+              "ToolTip": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\BDD.cs",
+              "RelativeToolTip": "ProyectoPED\\BDD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:07:18.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\login.cs",
+              "RelativeDocumentMoniker": "ProyectoPED\\login.cs",
+              "ToolTip": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoPED\\login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:03:38.676Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoPED\\Program.cs",
+              "ToolTip": "C:\\Users\\reren\\Downloads\\ProyectoPED-main (1)\\ProyectoPED-main\\ProyectoPED\\Program.cs",
+              "RelativeToolTip": "ProyectoPED\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:03:33.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

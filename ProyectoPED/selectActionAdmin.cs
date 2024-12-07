@@ -36,6 +36,8 @@ namespace ProyectoPED
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
+            GestionarCitas gestionarCitas = new GestionarCitas();
+            gestionarCitas.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -43,11 +45,6 @@ namespace ProyectoPED
             this.Hide();
             agregarCitas agregarCitas = new agregarCitas();
             agregarCitas.Show();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }
